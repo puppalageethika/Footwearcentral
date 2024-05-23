@@ -1,0 +1,267 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-margin {
+    color: black;
+    align-self: center;
+}
+
+.nav-margin>a {
+    font-size: 16px;
+    margin-left: 2em;
+}
+
+.nav-margin>.black-btn {
+    margin-right: 5em;
+}
+
+.foot-nav-icon {
+    margin-left: 5em;
+    height: 80px;
+    width: auto;
+    margin-bottom: 4px;
+}
+
+.nav-btn {
+    padding: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: hidden;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #000;
+}
+
+.nav-btn:hover {
+    background-color: grey;
+    color: #fff;
+}
+
+.black-btn {
+    padding: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: hidden;
+    border-radius: 7px;
+    background-color: #000;
+    color: #fff;
+}
+
+.top-nav {
+    font-family: "inter";
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.screenmsg {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .screenmsg {
+        display: block;
+    }
+
+    .top-nav,
+    .base {
+        display: none;
+    }
+}
+
+.base {
+    font-family: "inter";
+    padding-top: 85px;
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-bottom: 30px;
+}
+
+.frontPageimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-style: hidden;
+    border-radius: 7px;
+    background-image: url(https://res.cloudinary.com/dbxsbnvja/image/upload/v1716460211/FootWear%20Central/jakob-owens-Np_nvRuhpUo-unsplash_yhwid5.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+
+.frontPageimg>h1 {
+    line-height: 0px;
+    font-size: 64px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.frontPageimg>h2 {
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+
+.trendingSec {
+    margin-top: 100px;
+}
+
+.trendingSec>h1 {
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.trendFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.itemImg {
+    border-style: hidden;
+    border-radius: 7px;
+    width: 100%;
+    height: 70%;
+}
+
+#lastitem {
+    margin-right: 0px;
+}
+
+.itemCard {
+    margin-right: 20px;
+    flex: 30%;
+}
+
+.CategoriesSec {
+    padding-top: 80px;
+}
+
+.CategoriesSec>h1 {
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.CategoriesSec>h2 {
+    color: grey;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.Categoriesflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bigcard {
+    margin-right: 20px;
+    flex: 60%;
+}
+
+.bigimg {
+    height: auto;
+    width: 100%;
+    border-style: hidden;
+    border-radius: 7px;
+}
+
+.smlcard {
+    flex: 34%
+}
+
+.innerflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inneritem {
+    flex: 100%;
+}
+
+.men {
+    margin-top: 20px;
+}
+
+.endSed {
+    margin-top: 20px;
+}
+
+.endflex {
+    display: flex;
+
+}
+
+.endlogo {
+    flex: 50%;
+}
+
+.endinflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.endinflex>h1 {
+    margin-bottom: 80px;
+}
+
+i {
+    font-size: 32px;
+    margin-right: 12px;
+    color: grey;
+}
+
+.endcard {
+    flex: 50%;
+    display: flex;
+}
+
+.endcarditem {
+    flex: 33%;
+}
+
+.endcarditem>p {
+    color: grey;
+}
+
+.priceflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceflex>div>p {
+    line-height: 10px;
+}
+
+.priceflex>div>i {
+    margin-top: 10px;
+}
+
+#heart {
+    color: grey;
+}
+
+#heart:hover {
+    color: pink;
+}
+
+.grey {
+    color: grey;
+}
+
+a,
+a:link,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
